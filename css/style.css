@@ -1,0 +1,42 @@
+/* slider  */
+.carousel-item{
+    background: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 38%;
+   text-transform: uppercase;
+   width: 100%;
+   right: 0;
+   left: 0;
+}
+.carousel-caption h4 {
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.carousel-caption p{
+    font-size:2vw;
+    top: 2rem;
+}
+.slider-btn .btn {
+    background-color: #289BDE;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    font-size: 2vw;
+}
