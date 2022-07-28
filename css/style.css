@@ -40,3 +40,46 @@
     padding: 0.5rem 0.5rem;
     font-size: 2vw;
 }
+footer{
+    background-color: #000;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 2rem;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials a:hover i{
+    color: white;
+}
+.footer-bottom{
+    width: 100vw;
+    text-align: center;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: 0.5;
+}
